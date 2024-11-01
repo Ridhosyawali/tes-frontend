@@ -1,0 +1,108 @@
+.dashboard {
+  &__title {
+    font-size: 22px;
+  }
+  &__add {
+    margin-top: 20px;
+    padding: 8px 10px;
+    font-size: 14px;
+    background-color: #4caf50;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background-color: #3e8e41;
+    }
+    i {
+      font-size: 15px;
+      margin-right: 5px;
+      font-weight: bold;
+    }
+  }
+  &__table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    margin-top: 10px;
+    th {
+      border: 1px solid #ccc;
+      font-size: 15px;
+      padding: 5px;
+    }
+    td {
+      text-align: center;
+      font-size: 14px;
+      padding: 5px;
+      border: none;
+      border: 1px solid #ddd;
+    }
+
+    thead {
+      tr {
+        background-color: #f2f2f2;
+      }
+    }
+
+    &__name {
+      width: 40%;
+    }
+
+    &__location {
+      width: 40%;
+    }
+
+    &__action {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      &__edit {
+        background-color: #03a9f4;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 8px;
+
+        &:hover {
+          background-color: #0288d1;
+        }
+      }
+      &__delete {
+        background-color: #e74c3c;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 8px;
+
+        &:hover {
+          background-color: #c0392b;
+        }
+      }
+      &__read {
+        background-color: #f7dc6f;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 8px;
+
+        &:hover {
+          background-color: #f2c464;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.register {
+  &__input {
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  &__button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #000000; /* Kuning */
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    cursor: pointer;
+    &:hover {
+      background-color: transparent;
+      outline: 1px solid #000000;
+      color: #000000;
+    }
+  }
+}
